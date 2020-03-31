@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Marek.99</title>
+    <link rel="icon" type="image/png" href="images/head1.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="cursor"></div>
+    <script type="text/javascript">
+
+    $(document).mousemove(function(e) {
+
+      const cursor = $('#cursor');
+      const target = $(event.target);
+      
+      // update position of cursor
+      cursor.css('left', e.pageX-20).css('top', e.pageY-20);
+      
+      const isLinkTag = target.is('.logo-img,a .icon-behance,a .icon-dribbble,a .icon-instagram , a');
+      const isHovered = cursor.hasClass('hoveredCursor');
+      
+      // toggle the cursor class if necessary 
+      if(isLinkTag && !isHovered) {
+      
+        cursor.addClass('hoveredCursor');
+
+      } else if(!isLinkTag && isHovered) {
+      
+        cursor.removeClass('hoveredCursor');
+      
+      }
+      
+    });
+
+    $(document).mouseleave(function(e) {
+
+      const cursor = $('#cursor');
+      cursor.hide()
+
+    });
+
+    $(document).mouseenter(function(e) {
+
+      const cursor = $('#cursor');
+      cursor.show()
+
+    });
+
+    </script>
+
+    <div class="KW_progressContainer">
+      <div class="KW_progressBar">
+
+      </div>
+    </div>
+    <div class="page">
+    <nav id="colorlib-main-nav" role="navigation">
+      <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+      <div class="js-fullheight colorlib-table">
+      	<div class="img" style="background-image: url(images/author-2.png);"></div>
+        <div class="colorlib-table-cell js-fullheight">
+          <div class="row no-gutters">
+            <div class="col-md-12 text-center">
+              <h1 class="mb-4"><a href="index.html" class="logo">Rudra S. Das</a></h1>
+              <ul>
+                <li><a href="index.html"><span><small>01</small>Home</span></a></li>
+                <li><a href="services.html"><span><small>02</small>Services</span></a></li>
+                <li class="active"><a href="portfolio.html"><span><small>03</small>Portfolio</span></a></li>
+                <li><a href="contact.html"><span><small>04</small>Contact</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="colorlib-navbar-brand">
+                <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url(images/Untitled-1.png);"></span></a>
+              </div>
+              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="ftco-section">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span>Portfolio</span>
+              <h2>Am I worth your time & money?</h2>
+            </div>
+          </div>
+          <div class="row no-gutters">
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="https://www.instagram.com/p/B99FHj_DjB-/" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/Script.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Mobile Application UI/UX</h4>
+              <h2 class="heading"><a href="portfolio-single.html">Making even break-up texts look good</a></h2>
+              <p>Script: is a messagiing app with a soothing UI with a good looking logo for its branding. A shot at making an intuitive User experience.</p>
+              <p><a href="https://www.instagram.com/p/B99FHj_DjB-/">Get Inspired</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="https://www.instagram.com/p/B9XHovoDADC/" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/CampLuna.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Logo Design</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Even the insomniacs need sleep</a></h2>
+              <p>Camp Luna: A comparison of a retro style logo design v/s a modern approach. Logo and branding for a trekking/outdoor activities club.</p>
+              <p><a href="https://www.instagram.com/p/B9XHovoDADC/">Get Inspired</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="https://www.instagram.com/p/B9FJ5TMjAb7/" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/Freesia.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Branding</h4>
+              <h2 class="heading"><a href="portfolio-single.html">Bees and flowers are bff's</a></h2>
+              <p>Freesia: A branding approach for a flower shop with a logo design inspired from bees and flowers.</p>
+              <p><a href="https://www.instagram.com/p/B9FJ5TMjAb7/">Get Inspired</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="https://www.instagram.com/p/B8V_7N8DGfA/" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/KingQueen.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Playing Card Mock-Up</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Even the royals can be played with</a></h2>
+              <p>Royal: A playing card deck mockup inspired by all black design mixed with minimalist design.</p>
+              <p><a href="https://www.instagram.com/p/B8V_7N8DGfA/">Get Inspired</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="https://www.instagram.com/p/B78tZE4jj51/" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/Music.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text">
+              <h4 class="subheading">Music Player UI/UX</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Go with the Flow</a></h2>
+              <p>Play: a music player UI/UX with soft UI elements and dark theme to follow the 2020 trends.</p>
+              <p><a href="https://www.instagram.com/p/B78tZE4jj51/">Get Inspired</a></p>
+            </div>
+          </div>
+          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <a href="https://www.instagram.com/p/B7wFmuQjHGt/" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/BrownBrews.png'); " data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="icon d-flex text-center justify-content-center align-items-center">
+                <span class="icon-search"></span>
+              </div>
+            </a>
+            <div class="text order-1">
+              <h4 class="subheading">Coffee App UI/UX</h4>
+              <h2 class="heading"><a href="portfoli-singleo.html">Pull off All-nighters with this</a></h2>
+              <p>Brown Brews: An app for the coffee start-up Brown Brews with a logo for branding and a UI which can satisfy your coffee taste buds.</p>
+              <p><a href="https://www.instagram.com/p/B7wFmuQjHGt/">Get Inspired</a></p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+          <div class="row mb-5 justify-content-center">
+            <div class="col-md-5 text-center">
+              <div class="ftco-footer-widget mb-5">
+                <ul class="ftco-footer-social list-unstyled">
+                  <li class="ftco-animate"><a href="https://www.behance.net/rudra99"><span class="icon-behance"></span></a></li>
+                  <li class="ftco-animate"><a href="https://dribbble.com/Marek_Nine"><span class="icon-dribbble"></span></a></li>
+                  <li class="ftco-animate"><a href="https://www.instagram.com/rudra.d/?hl=en"><span class="icon-instagram"></span></a></li>
+                </ul>
+              </div>
+              <div class="ftco-footer-widget">
+                <h2 class="mb-3">Reach Me</h2>
+                <p class="h3 email"><a href="contact.html">rudra0712@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+
+              <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true" style="color: red;"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> and Rudra Shekhar Das<a href="https://github.com/Marek9999">(GitHub:Marek9999)</a>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- loader -->
+      <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+      </div>
+
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
